@@ -1,10 +1,13 @@
 tap "homebrew/bundle"
+tap "homebrew/cask"
 tap "homebrew/core"
-
 brew "cask"
-brew "vim"
+brew "go"
+brew "mysql"
+brew "mysql-client"
 brew "peco"
-
+brew "vim"
+cask "docker"
 cask "google-chrome"
 cask "notion"
 cask "visual-studio-code"
